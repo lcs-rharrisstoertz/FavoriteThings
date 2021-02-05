@@ -9,15 +9,29 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        
-        VStack {
-        
-            Image("cat")
-            .resizable()
-            .scaledToFit()
+       
+        NavigationView {
             
-        Text("This is a picture of a random cat I found on the internet")
+            List {
+                NavigationLink(
+                    destination: Moonshadow()){
+                        Text("Moonshadow")
+                    }
+                
+                NavigationLink(
+                    destination: Books()){
+                        Text("Books")
+                    }
+                
+                NavigationLink(
+                    destination: Knitting()){
+                        Text("Knitting")
+                    }
+                
+            }
+            .navigationTitle("Favorite Things")
         }
+        
     }
 }
 

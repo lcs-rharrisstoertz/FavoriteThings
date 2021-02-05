@@ -9,12 +9,20 @@ import SwiftUI
 
 struct Books: View {
     var body: some View {
-        Text("Books")
+        VStack {
+        Image("books")
+            .resizable()
+            .scaledToFit()
+        Text("I love reading. My favorite author is Gail Carson Levine, followed by Suzanne Collins and then Shannon Messenger.")
+        }
+        .navigationTitle("Books")
     }
 }
 
 struct Books_Previews: PreviewProvider {
     static var previews: some View {
+        NavigationView {
         Books()
+        }
     }
 }

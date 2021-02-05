@@ -9,12 +9,20 @@ import SwiftUI
 
 struct Knitting: View {
     var body: some View {
-        Text("Knitting")
+        VStack {
+        Image("knitting")
+            .resizable()
+            .scaledToFit()
+        Text("I love knitting. I recently started knitting a temperature scarf, where I knit two rows every day of the year in a color corresponding to the temperature that day.")
+        }
+        .navigationTitle("Knitting")
     }
 }
 
 struct Knitting_Previews: PreviewProvider {
     static var previews: some View {
+        NavigationView {
         Knitting()
+        }
     }
 }
