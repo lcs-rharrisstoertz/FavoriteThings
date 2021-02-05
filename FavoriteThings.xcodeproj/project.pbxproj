@@ -11,6 +11,9 @@
 		250A53E325CC409000ACC3EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250A53E225CC409000ACC3EC /* ContentView.swift */; };
 		250A53E525CC409500ACC3EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 250A53E425CC409500ACC3EC /* Assets.xcassets */; };
 		250A53E825CC409500ACC3EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 250A53E725CC409500ACC3EC /* Preview Assets.xcassets */; };
+		25A7167525CDA8A600340E43 /* Moonshadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A7167425CDA8A600340E43 /* Moonshadow.swift */; };
+		25A7167825CDA8CA00340E43 /* Books.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A7167725CDA8CA00340E43 /* Books.swift */; };
+		25A7167B25CDA8DA00340E43 /* Knitting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25A7167A25CDA8DA00340E43 /* Knitting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,9 @@
 		250A53E425CC409500ACC3EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		250A53E725CC409500ACC3EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		250A53E925CC409500ACC3EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25A7167425CDA8A600340E43 /* Moonshadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moonshadow.swift; sourceTree = "<group>"; };
+		25A7167725CDA8CA00340E43 /* Books.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Books.swift; sourceTree = "<group>"; };
+		25A7167A25CDA8DA00340E43 /* Knitting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Knitting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,9 @@
 				250A53E425CC409500ACC3EC /* Assets.xcassets */,
 				250A53E925CC409500ACC3EC /* Info.plist */,
 				250A53E625CC409500ACC3EC /* Preview Content */,
+				25A7167425CDA8A600340E43 /* Moonshadow.swift */,
+				25A7167725CDA8CA00340E43 /* Books.swift */,
+				25A7167A25CDA8DA00340E43 /* Knitting.swift */,
 			);
 			path = FavoriteThings;
 			sourceTree = "<group>";
@@ -138,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25A7167825CDA8CA00340E43 /* Books.swift in Sources */,
+				25A7167525CDA8A600340E43 /* Moonshadow.swift in Sources */,
 				250A53E325CC409000ACC3EC /* ContentView.swift in Sources */,
 				250A53E125CC409000ACC3EC /* FavoriteThingsApp.swift in Sources */,
+				25A7167B25CDA8DA00340E43 /* Knitting.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
