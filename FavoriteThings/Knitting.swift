@@ -13,7 +13,8 @@ struct Knitting: View {
         Image("knitting")
             .resizable()
             .scaledToFit()
-        Text("I love knitting. I recently started knitting a temperature scarf, where I knit two rows every day of the year in a color corresponding to the temperature that day.")
+            Text("I love knitting. I recently started knitting a temperature scarf, where I knit two rows of the scarf every day of the year in a color corresponding to the temperature that day.")
+                .padding(.horizontal)
         }
         .navigationTitle("Knitting")
     }

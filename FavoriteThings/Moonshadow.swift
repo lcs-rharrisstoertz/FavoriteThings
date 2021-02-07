@@ -14,7 +14,7 @@ struct Moonshadow: View {
             .resizable()
             .padding(.horizontal)
             .scaledToFit()
-            Text("This is one of my cats, Moonshadow. My family adopted her as a kitten around 6 years ago.This is one of my cats, Moonshadow. My family adopted her as a kitten around 6 years ago.This is one of my cats, Moonshadow. My family adopted her as a kitten around 6 years ago.This is one of my cats, Moonshadow. My family adopted her as a kitten around 6 years ago.This is one of my cats, Moonshadow. My family adopted her as a kitten around 6 years ago.This is one of my cats, Moonshadow. My family adopted her as a kitten around 6 years ago.This is one of my cats, Moonshadow. My family adopted her as a kitten around 6 years ago.")
+            Text("This is one of my cats, Moonshadow. My family adopted her as a kitten around 7 years ago. In this picture, she's lying on her favorite blanket.")
                 .padding(.horizontal)
         }
         .navigationTitle("Moonshadow")

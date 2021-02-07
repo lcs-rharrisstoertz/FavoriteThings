@@ -13,7 +13,8 @@ struct Books: View {
         Image("books")
             .resizable()
             .scaledToFit()
-        Text("I love reading. My favorite author is Gail Carson Levine, followed by Suzanne Collins and then Shannon Messenger.")
+            Text("I love reading. My favorite author is Gail Carson Levine, followed by Suzanne Collins and then Shannon Messenger.")
+                .padding(.horizontal)
         }
         .navigationTitle("Books")
     }
