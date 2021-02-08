@@ -15,58 +15,24 @@ struct ContentView: View {
             List {
                 NavigationLink(
                     destination: Moonshadow()){
-                    HStack {
-                        Text("🐈")
-                            .font(.largeTitle)
-                            
-                        VStack(alignment: .leading) {
-                            Text("Moonshadow")
-                                .fontWeight(.bold)
-                            
-                            Text("Moonshadow is my cat")
-                                .font(.subheadline)
+                    ListItem(hint: "🐈", title: "Moonshadow", summary: "Moonshadow is my cat")
                         }
-                    }
-                }
                 
                 NavigationLink(
                     destination: Books()){
-                    HStack {
-                        Text("📚")
-                            .font(.largeTitle)
-                            
-                        VStack(alignment: .leading) {
-                            Text("Books")
-                                .fontWeight(.bold)
-                            
-                            Text("I like books")
-                                .font(.subheadline)
+                    ListItem(hint: "📚", title: "Books", summary: "I like books")
                         }
-                    }
-                }
                 
                 NavigationLink(
                     destination: Knitting()){
-                    HStack {
-                        Text("🧶")
-                            .font(.largeTitle)
-                            
-                        VStack(alignment: .leading) {
-                            Text("Knitting")
-                                .fontWeight(.bold)
-                            
-                            Text("Knitting is fun")
-                                .font(.subheadline)
-                        }
-                    }
+                    ListItem(hint: "🧶", title: "Knitting", summary: "I like knitting")
                 }
-                
             }
             .navigationTitle("Favorite Things")
         }
         
     }
-}
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
@@ -74,3 +40,26 @@ struct ContentView_Previews: PreviewProvider {
     }
 }
 
+
+struct ListItem: View {
+    
+    var hint: String
+    var title: String
+    var summary: String
+    
+    var body: some View {
+        HStack {
+            Text(hint)
+                .font(.largeTitle)
+            
+            VStack(alignment: .leading) {
+                Text(title)
+                    .fontWeight(.bold)
+                
+                Text(summary)
+                    .font(.subheadline)
+            }
+        }
+    }
+}
+}
