@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25034B6325D1A32E00304420 /* ListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25034B6225D1A32E00304420 /* ListItem.swift */; };
 		250A53E125CC409000ACC3EC /* FavoriteThingsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250A53E025CC409000ACC3EC /* FavoriteThingsApp.swift */; };
 		250A53E325CC409000ACC3EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250A53E225CC409000ACC3EC /* ContentView.swift */; };
 		250A53E525CC409500ACC3EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 250A53E425CC409500ACC3EC /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		25034B6225D1A32E00304420 /* ListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItem.swift; sourceTree = "<group>"; };
 		250A53DD25CC409000ACC3EC /* FavoriteThings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FavoriteThings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		250A53E025CC409000ACC3EC /* FavoriteThingsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteThingsApp.swift; sourceTree = "<group>"; };
 		250A53E225CC409000ACC3EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -66,6 +68,7 @@
 				25A7167425CDA8A600340E43 /* Moonshadow.swift */,
 				25A7167725CDA8CA00340E43 /* Books.swift */,
 				25A7167A25CDA8DA00340E43 /* Knitting.swift */,
+				25034B6225D1A32E00304420 /* ListItem.swift */,
 			);
 			path = FavoriteThings;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25034B6325D1A32E00304420 /* ListItem.swift in Sources */,
 				25A7167825CDA8CA00340E43 /* Books.swift in Sources */,
 				25A7167525CDA8A600340E43 /* Moonshadow.swift in Sources */,
 				250A53E325CC409000ACC3EC /* ContentView.swift in Sources */,

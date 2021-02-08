@@ -39,27 +39,6 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+}
 
 
-struct ListItem: View {
-    
-    var hint: String
-    var title: String
-    var summary: String
-    
-    var body: some View {
-        HStack {
-            Text(hint)
-                .font(.largeTitle)
-            
-            VStack(alignment: .leading) {
-                Text(title)
-                    .fontWeight(.bold)
-                
-                Text(summary)
-                    .font(.subheadline)
-            }
-        }
-    }
-}
-}
