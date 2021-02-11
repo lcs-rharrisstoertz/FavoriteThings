@@ -74,7 +74,10 @@ let favouriteThings = [
           summary: "The best holiday",
           segments: [
             Segment(image: "halloween",
-                    text: "Halloween was mentioned in the Autumn section, but it deserves its own section. Candy is awesome (miniature candy bars are the best), but my favorite part of the holiday is the costumes. I love making and shopping for my costume. Last Halloween, I sewed my own Hogwarts cloak (Ravenclaw for the win!) and a plague doctor mask."),
+                    text: "Halloween was mentioned in the Autumn section, but it deserves its own section. Candy is awesome (miniature candy bars are the best), but my favorite part of the holiday is the costumes."),
+            Segment(image: "morganAsCheerios",
+                    text: "I love making costumes for Halloween. Last year, I helped my sister Morgan make a Cheerio box costume. She originally was holding a knife (to be a 'cereal killer') but ended up leaving the knife and just being a box of Cheerios. I dressed as a plague doctor."),
+
           ]),
     
     Thing(hint: "🍲",
@@ -87,6 +90,13 @@ Soup is one of my favorite foods for multiple reasons:
 1. It's easy to make. I'm terrible about overcooking food, but it's really hard to overcook soup. You can basically just put ingredients in a pot and leave it alone. And if you put the wrong number of eggs in a cake, it turns into a very floury frittata, but what happens if you put too many potatoes in a soup? Absolutely nothing.
 2. It's great even as a leftover. You can easily reheat it (or just eat cold soup, which is also good). And its texture isn't affected by freezing, so you can just freeze it and have food on hand later.
 3. It's just really good.
+"""),
+            Segment(image: "squashSoup",
+                    text: "Squash soup is one of my favorite kinds of soup. My family often grows squash in the fall, so my mother makes a lot of squash soup."),
+            Segment(image: "clamChowder",
+                    text: """
+My absolute favorite kind of soup is clam chowder. A lot of my extended family lives near the ocean, so we often buy clam chowder when we visit family. It's especially good in bread bowls (though this is risky- bread bowls leak very easily!)
+We once found a store that sold 3-gallon bags of clam chowder while visiting my grandmother. We of course decided that this was a necessary purchase, and proceeded to buy a bag without making any plans as to how we would transport it back home (a 16-hour car ride in a car with very poor air conditioning). We ultimately decided to buy bags of ice and hope that it would stay cool the whole ride home. Fortunately, it did!
 """),
           ]),
 
