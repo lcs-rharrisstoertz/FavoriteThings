@@ -30,8 +30,8 @@ let favouriteThings = [
           ]),
 
     Thing(hint: "🐱",
-          title: "My cats",
-          summary: "Moonshadow, Magnus, and Zephyr",
+          title: "My pets",
+          summary: "Moonshadow, Magnus, Zephyr, and the chickens",
           segments: [
             Segment(image: "moonshadow",
                     text: "This is one of my cats, Moonshadow. My family adopted her as a kitten around 7 years ago, making her our oldest cat. In this picture, she's lying on her favorite blanket."),
@@ -41,16 +41,27 @@ let favouriteThings = [
                     text: "But in the summer, Moonshadow loves going outside."),
             Segment(image: "zephyrSitting",
                     text: "This is Zephyr, our youngest cat."),
+            Segment(image: "skyeWithCat",
+                    text: "He belongs to my youngest sister, Skye."),
             Segment(image: "zephyrBaby",
                     text: "We adopted him very recently, just last spring."),
             Segment(image: "zephyrBiting",
                     text: "He's still in his hyperactive kitten phase."),
-            Segment(image: "catfight",
-                    text: "He enjoys playing with Moonshadow."),
+            Segment(image: "zephyrOnChair",
+                    text: ""),
             Segment(image: "magnus",
                     text: "Magnus is our third cat. He spends a lot of his time outside, even in the winter."),
             Segment(image: "magnusCurledUp",
                     text: "But he still likes to curl up on a blanket by the fire when it's cold."),
+            Segment(image: "chickensEatingWatermelon",
+                    text: "We also have a flock of around 20 chickens. We hatched most of the current flock this spring, though three are from our original flock, which we got 5 years ago."),
+            Segment(image: "polishBird",
+                    text: "A lot of our birds are miniature breeds and have poofy hairdos. They're perhaps not the most practical type of birds, but they're cute. (And they lay tiny eggs!)"),
+            Segment(image: "morganWithBird",
+                    text: "Our friendliest bird is named Ping Pong. He's especially close to my sister Morgan. When classes were online, Morgan would often take her computer outside so she could hang out with Ping Pong."),
+            Segment(image: "lunaBird",
+                    text: "This is Luna (he's a rooster, but we named him before we knew that). Luna is one of our smallest birds, but he's the loudest.")
+
           ]),
     
     Thing(hint: "📚",
@@ -66,7 +77,11 @@ let favouriteThings = [
           summary: "My favorite season",
           segments: [
             Segment(image: "autumn",
-                    text: "Autumn is my favorite season. It has Halloween (the absolute best holiday), the best kinds of food (pies, pumpkin spice lattes, apple crips, squash soup, and baked goods), and the perfect weather (not freezing, not scorching, and with occasional rain). And my favorite authors publish their books in the fall!"),
+                    text: "Autumn is my favorite season. It has Halloween (the absolute best holiday), and perfect weather. And my favorite authors publish their books in the fall!"),
+            Segment(image: "fallFood",
+                    text: "Autumn has the best kinds of foods. Pies, pumpkin spice lattes, soup, and baked goods. My family always buys giant bags of apples in autumn, so we make lots of apple pies and apple crisps in autumn. We also grow a lot of vegetables (especially zucchini- we grow so much zucchini) in our garden, so we always have fresh vegetables in the fall. My mother makes a lot of squash soups and pies, which are my favorite foods."),
+            Segment(image: "autumnRain",
+                    text: "I love autumn weather. It's the perfect temperature. It's not freezing, so it's still pleasant to be outside with only a thin jacket, but it's also chilly enough to drink hot chocolate, light fires, and make baked goods (Pie is good at any time of year, but it always seems strange to eat it if it's not cold outside). And it rains the perfect amount! Spring is also rainy, but the ground is still frozen, so the water doesn't soak into the ground- it just stays on top and creates hidden puddles for people to step into without any warning. I love rainstorms, but I don't like being surprised by puddles."),
           ]),
 
     Thing(hint: "🎃",
