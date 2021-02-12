@@ -82,7 +82,7 @@ I've tried crochet, but it's a lot more challenging. It's difficult to keep trac
             Segment(image: "preyNovel",
                     text: "Michael Crichton is most famous for Jurassic Park, but his other novels are wonderful. My favorite is Prey, a book about a team of scientists who create a swarm of nanobots who are capable of evolution (which, obviously does not go well)."),
             Segment(image: "hhgttg",
-                    text: "Douglas Adams is another of my favorite authors. His style of writing and descriptions are absolutely amazing."),
+                    text: "Douglas Adams is another of my favorite authors. His style of writing is absolutely amazing."),
             
           ]),
     
