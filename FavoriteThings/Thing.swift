@@ -26,7 +26,10 @@ let favouriteThings = [
           summary: "I love knitting",
           segments: [
             Segment(image: "knitting",
-                    text: "I love knitting. I recently started knitting a temperature scarf, where I knit two rows of the scarf every day of the year in a color corresponding to the temperature that day. My cat Moonshadow also seems to like knitting- or at least unravelling it."),
+                    text: """
+I love knitting. I recently started knitting a temperature scarf, where I knit two rows of the scarf every day of the year in a color corresponding to the temperature that day. My cat Moonshadow also seems to like knitting- or at least unravelling it.
+I've tried crochet, but it's a lot more challenging. It's difficult to keep track of the different loops of yarn.
+"""),
           ]),
 
     Thing(hint: "🐱",
@@ -69,7 +72,18 @@ let favouriteThings = [
           summary: "I like reading",
           segments: [
             Segment(image: "books",
-                    text: "I love reading. My favorite authors are Gail Carson Levine, Suzanne Collins, Shannon Messenger, and Rick Riordan."),
+                    text: "I love reading. My favorite authors are Gail Carson Levine, Suzanne Collins, Shannon Messenger, Michael Crichton, and Douglas Adams."),
+            Segment(image: "kotlc",
+                    text: "Shannon Messenger is the author of a series called Keeper of the Lost Cities. It's about a girl who is raised as a human but discovers that she's an elf."),
+            Segment(image: "hungerGames",
+                    text: "The Hunger Games is another of my favorite series. My favorite book in the series is the prequel novel, a Ballad of Songbirds and Snakes. It gave a lot of insight into the mind of the main villain from the original series, and made a lot of things from the original series make much more sense."),
+            Segment(image: "levine",
+                    text: "Gail Carson Levine is my favorite author. Many of her books are loosely based on fairy tales. I often don't like fairy tale adaptations because a lot are just the original story with a few details changed, but I love Levine's books. She always changes them enough so that they feel like a brand new story."),
+            Segment(image: "preyNovel",
+                    text: "Michael Crichton is most famous for Jurassic Park, but his other novels are wonderful. My favorite is Prey, a book about a team of scientists who create a swarm of nanobots who are capable of evolution (which, obviously does not go well)."),
+            Segment(image: "hhgttg",
+                    text: "Douglas Adams is another of my favorite authors. His style of writing and descriptions are absolutely amazing."),
+            
           ]),
     
     Thing(hint: "🍁",
@@ -79,9 +93,9 @@ let favouriteThings = [
             Segment(image: "autumn",
                     text: "Autumn is my favorite season. It has Halloween (the absolute best holiday), and perfect weather. And my favorite authors publish their books in the fall!"),
             Segment(image: "fallFood",
-                    text: "Autumn has the best kinds of foods. Pies, pumpkin spice lattes, soup, and baked goods. My family always buys giant bags of apples in autumn, so we make lots of apple pies and apple crisps in autumn. We also grow a lot of vegetables (especially zucchini- we grow so much zucchini) in our garden, so we always have fresh vegetables in the fall. My mother makes a lot of squash soups and pies, which are my favorite foods."),
+                    text: "Autumn has the best kinds of foods. Pies, pumpkin spice lattes, soup, and baked goods. My family always buys giant bags of apples in autumn from the farmers' market, so we make lots of apple pies and apple crisps in autumn. We also grow a lot of vegetables (especially zucchini- we grow SO MUCH zucchini) in our garden, so we always have fresh vegetables in the fall. My mother makes a lot of squash soups and pies, which are my favorite foods."),
             Segment(image: "autumnRain",
-                    text: "I love autumn weather. It's the perfect temperature. It's not freezing, so it's still pleasant to be outside with only a thin jacket, but it's also chilly enough to drink hot chocolate, light fires, and make baked goods (Pie is good at any time of year, but it always seems strange to eat it if it's not cold outside). And it rains the perfect amount! Spring is also rainy, but the ground is still frozen, so the water doesn't soak into the ground- it just stays on top and creates hidden puddles for people to step into without any warning. I love rainstorms, but I don't like being surprised by puddles."),
+                    text: "I love autumn weather. It's the perfect temperature. It's not freezing, so it's still pleasant to be outside with only a thin jacket, but it's also chilly enough to drink hot chocolate, light fires, and make baked goods (Pie is good at any time of year, but it always seems strange to eat it if it's not cold outside). And it rains the perfect amount! Spring is also rainy, but the ground is still frozen, so the water doesn't soak into the ground- it just stays on top and creates hidden puddles for people to step into without any warning."),
           ]),
 
     Thing(hint: "🎃",
@@ -92,7 +106,7 @@ let favouriteThings = [
                     text: "Halloween was mentioned in the Autumn section, but it deserves its own section. Candy is awesome (miniature candy bars are the best), but my favorite part of the holiday is the costumes."),
             Segment(image: "morganAsCheerios",
                     text: "I love making costumes for Halloween. Last year, I helped my sister Morgan make a Cheerio box costume. She originally was holding a knife (to be a 'cereal killer') but ended up leaving the knife and just being a box of Cheerios. I dressed as a plague doctor."),
-
+            
           ]),
     
     Thing(hint: "🍲",
@@ -111,7 +125,7 @@ Soup is one of my favorite foods for multiple reasons:
             Segment(image: "clamChowder",
                     text: """
 My absolute favorite kind of soup is clam chowder. A lot of my extended family lives near the ocean, so we often buy clam chowder when we visit family. It's especially good in bread bowls (though this is risky- bread bowls leak very easily!)
-We once found a store that sold 3-gallon bags of clam chowder while visiting my grandmother. We of course decided that this was a necessary purchase, and proceeded to buy a bag without making any plans as to how we would transport it back home (a 16-hour car ride in a car with very poor air conditioning). We ultimately decided to buy bags of ice and hope that it would stay cool the whole ride home. Fortunately, it did!
+Once, while visiting my grandmother, we found a store that sold 3-gallon bags of clam chowder. We of course decided that this was a necessary purchase, and proceeded to buy a bag without making any plans as to how we would transport it back home (a 16-hour car ride in a car with very poor air conditioning). We ended up surrounding it with bags of ice and crossing our fingers that it would stay cool the whole way home.
 """),
           ]),
 
